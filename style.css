@@ -1,0 +1,31 @@
+*{
+    padding:0%;
+    margin:0%;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-image: url('photo1.jpg');
+    background-position: center;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    
+}
+.form{
+    width:fit-content;
+    height:fit-content;
+    background-color: white;
+    background-position: center;
+    padding: 30px;
+    
+    //text-align:center;
+    display: flex;
+    align-self:center;   
+}
+h1{
+    text-align: center;
+}
